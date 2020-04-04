@@ -2,7 +2,7 @@
 title: "Google has banned the Infowars Android app over false coronavirus claims"
 excerpt: "Apple banned it in September 2018"
 date: "2020-03-27T17:01:25-05:00"
-coverImage: "~/static/images/cover_one.png"
+coverImage: /images/cover_one.png
 ---
 
 ## Who was banned from Play Store?

@@ -2,7 +2,7 @@
 title: "Google is temporarily rolling back Chrome’s SameSite cookie requirements"
 excerpt: "Google says it wants to provide stability during the COVID-19 outbreak"
 date: "2020-03-03T14:01:15-12:00"
-coverImage: "~/static/images/cover_two.png"
+coverImage: /images/cover_two.png
 ---
 
 ## What was updated to new?
