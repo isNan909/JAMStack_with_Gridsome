@@ -1,10 +1,10 @@
 export default [
   {
-    path: "/blog/post-two/",
+    path: "/blog/post-one/",
     component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/ishan/Documents/my files/tuts and samples/JAMStack Blog/JAMStack_n_Gridsome/src/templates/Post.vue")
   },
   {
-    path: "/blog/post-one/",
+    path: "/blog/post-two/",
     component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/ishan/Documents/my files/tuts and samples/JAMStack Blog/JAMStack_n_Gridsome/src/templates/Post.vue")
   },
   {

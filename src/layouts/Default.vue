@@ -5,11 +5,18 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
     </header>
-    <slot/>
+    <slot />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from '~/components/Footer.vue'
+export default {
+  components: {
+    Footer
+  }
+}
 </script>
 
 <static-query>
@@ -20,4 +27,3 @@ query {
   }
 }
 </static-query>
-
