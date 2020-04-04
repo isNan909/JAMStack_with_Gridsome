@@ -2,11 +2,20 @@
   "name": "blog-sample",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "start": "gridsome develop",
-    "explore": "gridsome explore"
+    "start": "npm run watch:css && gridsome develop",
+    "build": "npm run build:css && gridsome build",
+    "explore": "gridsome explore",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/main.css -o src/stylesheet/styles.css", 
+    "watch:css": "postcss src/main.css -o src/stylesheet/styles.css"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0"
   }
 }

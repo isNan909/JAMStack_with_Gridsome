@@ -1,0 +1,4 @@
+/* Using the @tailwind directive to inject Tailwind's base, components, and utilities styles into our CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
