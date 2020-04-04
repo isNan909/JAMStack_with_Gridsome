@@ -1,25 +1,24 @@
 <template>
   <div>
-    <header>
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-    </header>
-    <slot />
+    <Header />
+    <div class="container mx-auto flex-grow">
+      <slot />
+    </div>
     <Footer />
   </div>
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue'
+import Footer from "~/components/Footer.vue";
+import Header from "~/components/Navbar.vue";
 
 export default {
   components: {
-    Footer
+    Footer,
+    Header
   }
-}
+};
 </script>
-
 
 <static-query>
 query {
@@ -28,4 +27,3 @@ query {
   }
 }
 </static-query>
-

@@ -1,7 +1,15 @@
 <template>
   <Layout>
-    <h1>Welcome to my blog!</h1>
-    <g-link class="nav__link" to="/blog">See My Posts</g-link>
+    <div class="mt-0 flex-row text-center ">
+      <h1 class="text-3xl font-extrabold p-10">Welcome to my blog!</h1>
+      <g-link to="/blog">
+        <button
+          class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mb-10"
+        >
+          See My Blogs
+        </button></g-link
+      >
+    </div>
   </Layout>
 </template>
 

@@ -12,7 +12,7 @@ const postcssPlugins = [tailwind()];
 if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 
 module.exports = {
-  siteName: "My Blog",
+  siteName: "My Personal Blog",
   siteUrl: "" /*We will deploy to ZEITH */,
   siteDescription: "A example of blog",
   plugins: [

@@ -1,13 +1,25 @@
 <template>
   <Layout>
-    <h1>My Blog Posts</h1>
     <ul>
-      <li v-for="post in $page.posts.edges" :key="post.id">
-        <g-link :to="post.node.path">
-          {{post.node.title}}
-          <g-image :src="post.node.coverImage" />
-        </g-link>
-      </li>
+      <div class="flex flex-wrap">
+        <li v-for="post in $page.posts.edges" :key="post.id">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg lg:pt-12 lg:mr-12 lg:ml-12">
+            <g-link :to="post.node.path">
+              <img
+                class="w-full"
+                :src="post.node.coverImage"
+                alt="cover image"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ post.node.title }}</div>
+                <p class="text-gray-700 text-base">
+                  {{ post.node.excerpt }}
+                </p>
+              </div>
+            </g-link>
+          </div>
+        </li>
+      </div>
     </ul>
   </Layout>
 </template>
@@ -19,10 +31,8 @@ query Posts{
       node{
         path
         title
-        excerpt
         coverImage
-        content
-        date
+        excerpt
     }
   }
 }
