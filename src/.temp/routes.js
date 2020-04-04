@@ -1,7 +1,15 @@
 export default [
   {
-    path: "/about/",
-    component: () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/ishan/Documents/my files/tuts and samples/JAMStack Blog/JAMStack_n_Gridsome/src/pages/About.vue")
+    path: "/blog/post-two/",
+    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/ishan/Documents/my files/tuts and samples/JAMStack Blog/JAMStack_n_Gridsome/src/templates/Post.vue")
+  },
+  {
+    path: "/blog/post-one/",
+    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/ishan/Documents/my files/tuts and samples/JAMStack Blog/JAMStack_n_Gridsome/src/templates/Post.vue")
+  },
+  {
+    path: "/blog/",
+    component: () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/Users/ishan/Documents/my files/tuts and samples/JAMStack Blog/JAMStack_n_Gridsome/src/pages/Blog.vue")
   },
   {
     name: "404",

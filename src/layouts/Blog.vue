@@ -2,22 +2,19 @@
   <div>
     <header>
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link to="/">{{$static.metadata.siteName}}</g-link>
       </strong>
     </header>
     <slot/>
   </div>
 </template>
 
-<script>
-</script>
-
 <static-query>
 query {
   metadata {
-    siteName,
-    siteDescription
+    siteName
   }
 }
 </static-query>
+
 
