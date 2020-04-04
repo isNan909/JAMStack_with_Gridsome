@@ -5,6 +5,7 @@
       <li v-for="post in $page.posts.edges" :key="post.id">
         <g-link :to="post.node.path">
           {{post.node.title}}
+          <g-image :src="post.node.coverImage" />
         </g-link>
       </li>
     </ul>
