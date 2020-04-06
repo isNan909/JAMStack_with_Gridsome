@@ -42,7 +42,7 @@ query Posts{
 <script>
 export default {
   metaInfo: {
-    title: "My Blog - Posts"
+    title: "Our Blog - Posts"
   }
 };
 </script>

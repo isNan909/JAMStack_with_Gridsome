@@ -1,16 +1,16 @@
 ---
-title: "Google has banned the Infowars Android app over false coronavirus claims"
-excerpt: "Apple banned it in September 2018"
+title: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet one"
+excerpt: "Going through the cites of the word in classical literature"
 date: "2020-03-27T17:01:25-05:00"
 coverImage: /images/cover_one.png
 ---
 
-## Who was banned from Play Store?
+## Description:
 
-Google has banned the Infowars Android app from the Google Play store, the company confirmed to Wired on Friday. Google also confirmed the app’s removal to The Verge, and we couldn’t find the Infowars app in a search on the Play Store this evening.
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-The app was apparently removed because of a video posted by radio host and conspiracy theorist Alex Jones that, according to Wired, “disputed the need for social distancing, shelter in place, and quarantine efforts meant to slow the spread of the novel coronavirus.” Before it was removed, the app had more than 100,000 downloads, Wired reports.
 
-## Source
 
-The Verge
+## Source:
+
+Lorem Ipsum
